@@ -20,10 +20,14 @@ h1 {
     text-shadow: 3px 3px 1px black;
 }
 
-img {
+#main-image {
     display: block;
     margin: 0 auto;
 }
+
+/* #main-image:hover {
+    content : url("../images/fox03.png")
+} */
 
 button {
     background-color: antiquewhite;
