@@ -2,9 +2,11 @@ var mainImage = document.getElementById('main-image');
 
 mainImage.onclick = function() {
     var mainSrc = mainImage.getAttribute('src');
-    if (mainSrc === "images/fox01.png") {
-        mainImage.setAttribute('src', 'images/fox03.png');
+    var srcFirst = 'images/fox04.png';
+    var srcSecond = 'images/fox05.png';
+    if (mainSrc === srcFirst) {
+        mainImage.setAttribute('src', srcSecond);
     } else {
-        mainImage.setAttribute('src', 'images/fox01.png');
+        mainImage.setAttribute('src', srcFirst);
     }
 };
