@@ -1,13 +1,18 @@
+:root {
+    --main-bg-color: #fdb752;
+    --main-content-bg-color: #f7d097;
+    --link--text-color: #ff2e88;
+}
 html {
     font-size: 12px;
     font-family: 'BioRhyme Expanded', serif;
-    background-color: #ffebcd;
+    background-color: var(--main-bg-color);
 }
 
 body {
     width: 900px;
     margin: 0 auto;
-    background-color: rgb(253, 246, 227); 
+    background-color: var(--main-content-bg-color);
     padding: 0 20px 20px 20px;
 }
 
@@ -34,7 +39,7 @@ button {
 }
 
 a {
-    color: black; 
+    color: var(--link--text-color); 
 }
 
 dl {
